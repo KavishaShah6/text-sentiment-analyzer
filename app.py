@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 import pandas as pd
 import string
@@ -74,6 +73,3 @@ if st.button("🔍 Analyze"):
         # Bar chart
         st.subheader("📊 Sentiment Probabilities")
         st.bar_chart({"Negative 😠": [proba[0]], "Positive 😊": [proba[1]]})
-=======
-
->>>>>>> afc74a4963bee314389f75f53ec3294495c7329b
